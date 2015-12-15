@@ -17,10 +17,10 @@ description:         'description'
 url:                 http://patilnabhi.github.io
 rss:                 rss feed url
 baseurl:             '/portfolio/'
-baseurl_posts_img:   '/assets/images/posts/'
-baseurl_featured_img: '/assets/images/hero/'
-baseurl_featured_thumbnail: '/assets/images/thumbnail/'
-baseurl_javascripts: '/assets/javascripts/'
+baseurl_posts_img:   '/portfolio/assets/images/posts/'
+baseurl_featured_img: '/portfolio/assets/images/hero/'
+baseurl_featured_thumbnail: '/portfolio/assets/images/thumbnail/'
+baseurl_javascripts: '/portfolio/assets/javascripts/'
 icon:                your site icon path # /assets/img/icon.png [best 300px X 300px]
 disqus:              disqus_shortname # get it on https://disqus.com/admin/
 
