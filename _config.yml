@@ -46,7 +46,7 @@ port:             	 9001
 defaults:
   -
     scope:
-      path: "_posts"
+      path: "/portfolio/_posts"
       type: "posts"
     values:
       layout: "default"
