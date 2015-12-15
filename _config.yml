@@ -16,7 +16,7 @@ tagline:             'tagline'
 description:         'description'
 url:                 http://patilnabhi.github.io/portfolio
 rss:                 rss feed url
-baseurl:             '/'
+baseurl:             '/portfolio/'
 baseurl_posts_img:   '/assets/images/posts/'
 baseurl_featured_img: '/assets/images/hero/'
 baseurl_featured_thumbnail: '/assets/images/thumbnail/'
