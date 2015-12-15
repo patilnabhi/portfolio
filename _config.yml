@@ -14,7 +14,7 @@ name:				         site name
 title:               site title
 tagline:             'tagline'
 description:         'description'
-url:                 http://patilnabhi.github.io/portfolio
+url:                 http://patilnabhi.github.io
 rss:                 rss feed url
 baseurl:             '/portfolio/'
 baseurl_posts_img:   '/assets/images/posts/'
