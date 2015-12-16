@@ -20,20 +20,20 @@
   
 
   
-    <link rel="prev" href="http://patilnabhi.github.io/why-tops-spin" title="Why Tops Spin?">
+    <link rel="prev" href="http://patilnabhi.github.io/why-tops-spin" title="What Keeps Spinning Tops Upright?">
   
 
   <!-- Twitter card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@">
   <meta name="twitter:creator" content="@">
-  <meta name="twitter:title" content="Baxter Project">
+  <meta name="twitter:title" content="Baxter Pick 'n' Place">
   <meta name="twitter:description" content="">
   <meta name="twitter:image" content="http://patilnabhi.github.io/portfolio/assets/images/hero/baxter01.jpg">
   <meta name="twitter:url" content="http://patilnabhi.github.io/baxter-project">
 
   <!-- Open graph -->
-  <meta property="og:title" content="Baxter Project">
+  <meta property="og:title" content="Baxter Pick 'n' Place">
   <meta property="og:type" content="article">
   <meta property="og:url" content="http://patilnabhi.github.io/baxter-project">
   <meta property="og:image" content="http://patilnabhi.github.io/portfolio/assets/images/hero/baxter01.jpg">
@@ -73,7 +73,7 @@
 
   <title>
     
-      Baxter Project &middot; Portfolio
+      Baxter Pick 'n' Place &middot; Portfolio
     
   </title>
 
@@ -126,7 +126,7 @@
             <img src="/portfolio/assets/images/thumbnail/update.jpg" style="" alt="">
           </a>
         
-        <a href="/portfolio///why-tops-spin">Why Tops Spin?</a>
+        <a href="/portfolio///why-tops-spin">What Keeps Spinning Tops Upright?</a>
         <div class="postMeta">10 Dec 2015</div>
       </li>
       
@@ -235,7 +235,7 @@
     "></div>
     <div class="section-title is-darkBackgrounded u-tableCell u-verticalAlignMiddle">
       <div class="container">
-        <h2>Baxter Project</h2>
+        <h2>Baxter Pick 'n' Place</h2>
         <div class="postMeta-wrapper">
           <ul class="postMeta">
             <li class="postMeta-datetime">
@@ -255,115 +255,37 @@
     <div class="container container--content">
       <div class="content-body">
 
-        <h2>About</h2>
+        <p>Project Website: <a href="http://patilnabhi.github.io/baxter_two">http://patilnabhi.github.io/baxter_two</a></p>
 
-<p>A ROS project developed as part of ME495 - Embedded Systems in Robotics course at Northwestern University (NU). </p>
+<p>This is a <a href="http://www.ros.org/">ROS</a> project developed as part of ME495 - Embedded Systems in Robotics course at Northwestern University (<a href="http://www.mccormick.northwestern.edu/robotics/">NU</a>).
+(ROS stands for Robot Operating System).</p>
+
+<p>The <strong>goal</strong> of this project was to use <a href="http://www.rethinkrobotics.com/baxter/">baxter</a> robot to pick and place objects from one location to another.</p>
+
+<p>The following video shows our project in action:</p>
 
 <p><center><iframe width="1920" height="1080" src="https://www.youtube.com/embed/ZZ2A0e9FO-M" frameborder="0" allowfullscreen></iframe></center></p>
 
-<p>To launch (in a ROS workspace), type in terminal:</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">cd ~/baxter_ws/
-. baxter.sh
-rosrun baxter_tools enable_robot.py -e
-roslaunch baxter_two baxter_two.launch
-</code></pre></div>
-<h2>Goal of Project</h2>
-
-<p><strong>Use baxter to pick and place objects from one location to another</strong></p>
-
-<h2>Tutorial</h2>
-
-<p>The following sections describe contents of this package and how to use them:</p>
-
-<h3>1. Prerequisites</h3>
-
-<p>The following packages need to be installed for <code>baxter_two</code> package to work: </p>
-
-<ol>
-<li><a href="http://sdk.rethinkrobotics.com/wiki/Workstation_Setup">Baxter SDK</a> - to be installed in <code>baxter_ws/src</code> directory</li>
-<li><a href="http://moveit.ros.org/install/">MoveIt!</a></li>
-<li><a href="https://github.com/mikeferguson/moveit_python">moveit_python</a> by Michael Ferguson - to be installed in <code>baxter_ws/src</code> directory</li>
-<li><a href="http://sdk.rethinkrobotics.com/wiki/Simulator_Installation">Baxter Simulator</a> - v1.1 (ONLY needed if NOT working with actual baxter robot)</li>
-</ol>
-
-<h3>2. Package Contents</h3>
-
-<p>The <code>baxter_two</code> package consists of following main files:</p>
+<p><strong>Summary</strong>:</p>
 
 <ul>
-<li><p><strong>baxter_two.launch</strong>: A launch file that starts the following nodes:</p>
+<li>Baxter robot is used to pick and place different sized square blocks from one location to another</li>
+<li>Our group not only got baxter to pick &amp; place the square blocks, but also stack larger of the cubes on top of each other</li>
+<li>The project consists of 3 major elements:
 
 <ul>
-<li>joint<em>action</em>trajectory_server.py (required for MoveIt!)</li>
-<li>MoveIt! with rviz</li>
-<li>baxter_img.cpp</li>
-<li>baxter_pnp.py</li>
+<li><strong>Image processing</strong>: <a href="http://opencv.org/">OpenCv</a> is used as a tool to detect objects &amp; process images from baxter&#39;s camera. A transformation of the objects in the image frame is obtained.</li>
+<li><strong>Moving baxter&#39;s arms</strong>: <a href="http://moveit.ros.org/">MoveIt!</a> is used as a tool to move baxter&#39;s arms to pick and place objects. </li>
+<li><strong>Planning scene</strong>: MoveIt! is also used to visualize the planning scene in <a href="http://wiki.ros.org/rviz">Rviz</a> - a 3D visualization tool for ROS. Planning scene consisted of objects present around baxter. The main purpose was not only to visualize the scene, but also to prevent baxter from colliding with these objects.<br></li>
 </ul></li>
-<li><p><strong>baxter_img.cpp</strong>: subscribes to the <code>/cameras/right_hand_camera/image</code> topic, calculates object locations using <a href="http://opencv.org/">OpenCV</a> tools, and publishes this information to <code>baxter_pnp</code> node via a <code>PoseArray()</code> message</p></li>
-<li><p><strong>baxter_pnp.py</strong>: subscribes to the topic (called <code>Dpos</code>) published by <em>baxter_img</em>, and calls <code>PlanningSceneInterface</code> and <code>MoveGroupInterface</code> classes from <code>moveit_python</code> bindings to add collision objects and move baxter&#39;s arms respectively</p>
+<li><strong>Future work</strong>:
 
 <ul>
-<li>Allows both arms to be moved at the same time</li>
-<li>Allows velocity scaling using <code>max_velocity_scaling_factor</code></li>
-<li>Uses <code>baxter_interface</code> for gripper control</li>
+<li>Improved camera calibration</li>
+<li>GUI development: A Graphical User Interface (GUI) that allows user to click an object in the virtual world (e.g in <a href="http://www.gazebosim.org/tutorials?tut=ros_installing&amp;cat=connect_ros">Gazebo</a>), and pick and place that particular object.</li>
 </ul></li>
 </ul>
 
-<h3>3. Step-by-step guide</h3>
-
-<p>This section gives a step-by-step approach to run a successful baxter pick and place with this package.</p>
-
-<ol>
-<li>Items needed - a table of height ~ 0.6 m; square blocks (with green top surface); a baxter robot with electric parallel grippers; an ethernet cable (to connect baxter to computer)</li>
-<li>Set up <a href="http://sdk.rethinkrobotics.com/wiki/Networking">networking</a> with baxter</li>
-<li>Install the required packages as outlined in <strong>Prerequisites</strong> section</li>
-<li>Clone this package to your <code>baxter_ws/src</code> directory</li>
-<li><a href="http://sdk.rethinkrobotics.com/wiki/Workstation_Setup">Source</a> <code>baxter.sh</code> file, enable the robot, and launch <code>baxter_two.launch</code> as follows</li>
-</ol>
-<div class="highlight"><pre><code class="language-text" data-lang="text">cd ~/baxter_ws/
-. baxter.sh
-rosrun baxter_tools enable_robot.py -e
-roslaunch baxter_two baxter_two.launch
-</code></pre></div>
-<h3>4. rqt_graph</h3>
-
-<p>The following rqt_graph shows a ROS computation graph for baxter pick and place highlighting all important nodes and topics during operation:</p>
-
-<p><img src="/bin/rosgraph.png" align="middle" width="300"></p>
-
-<h2>Future Work</h2>
-
-<ul>
-<li><p><strong>Camera Calibration</strong>: We are looking into improving the camera calibration. Currently, variations in surrounding lighting affect the object detection. Using more finely-tuned methods of calibrating the camera will minimize the lighting issue. </p></li>
-<li><p><strong>GUI Development</strong>: We are also looking to create a Graphical User Interface (GUI) that allows the user to click an object in the virtual world (e.g in <a href="http://www.gazebosim.org/tutorials?tut=ros_installing&amp;cat=connect_ros">Gazebo</a>), and pick and place that particular object. This GUI is currently under development.</p></li>
-</ul>
-
-<h2>Team</h2>
-
-<ul>
-<li><a href="https://github.com/patilnabhi">Abhishek Patil</a></li>
-<li><a href="https://github.com/hongalan">Alan Hong</a></li>
-<li>Hanlin Wang</li>
-<li>Vince Martinez</li>
-</ul>
-
-
-      </div>
-    </div>
-    <hr class="u-clearHr"/>
-    <hr class="u-clearHr"/>
-    <hr/>
-    <div class="container container--content">
-      <div class="content-body">
-        <section class="section--subscribe">
-  <div class="container container--content">
-    <h3 class="u-alignCenter">Stay in touch</h3>
-    <p>
-      Hi, I'm <a href="/portfolio/about/">Abhishek Patil</a>. I am currently pursuing a Masters of Science in Robotics (MSR) at Northwestern Univeristy (NU). Actively seeking internship for a robotics role. This portfolio showcases projects I have worked on in my career. You can find out more about me <a href="/portfolio/about/">here</a>. 
-    </p>
-    <hr/>
-  </div>
-</section>
 
       </div>
     </div>
@@ -387,7 +309,7 @@ roslaunch baxter_two baxter_two.launch
           <div class="container">
             <h4>Next story:</h4>
             <a class="prev" href="/portfolio///why-tops-spin">
-              <h2>Why Tops Spin?</h2>
+              <h2>What Keeps Spinning Tops Upright?</h2>
             </a>
           </div>
         </div>
@@ -395,7 +317,6 @@ roslaunch baxter_two baxter_two.launch
     
   </footer>
 </article>
-
 <div class="modal-toggle-group animate scaleIn">
   <div class="modal-toggle-bubbleShadow"></div>
   <div class="modal-toggle-bubble"></div>
@@ -409,16 +330,32 @@ roslaunch baxter_two baxter_two.launch
   <div class="u-tableCell u-verticalAlignMiddle">
     <h2 class="h2--shareTitle">Share this story</h2>
     <ul class="shareWrapper">
-      <li><a class="shareButton shareButton--twitter" href="https://twitter.com/intent/tweet?text=Baxter Project by @VincentChan&url=http%3A%2F%2Fpatilnabhi.github.io%2Fbaxter-project" target="_blank"></a></li>
+      <li><a class="shareButton shareButton--twitter" href="https://twitter.com/intent/tweet?text=Baxter Pick 'n' Place by @VincentChan&url=http%3A%2F%2Fpatilnabhi.github.io%2Fbaxter-project" target="_blank"></a></li>
       <li><a class="shareButton shareButton--facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fpatilnabhi.github.io%2Fbaxter-project" target="_blank"></a></li>
       <li><a class="shareButton shareButton--linkedin" href="https://www.linkedin.com/shareArticle
-?mini=true&url=http%3A%2F%2Fpatilnabhi.github.io%2Fbaxter-project&title=Baxter Project"  target="_blank"></a></li>
-      <li><a class="shareButton shareButton--buffer" href="https://buffer.com/add?text=Baxter Project by @VincentChan&url=http%3A%2F%2Fpatilnabhi.github.io%2Fbaxter-project" target="_blank"></a></li>
-      <li><a class="shareButton shareButton--hackernews" href="http://news.ycombinator.com/submitlink?u=http%3A%2F%2Fpatilnabhi.github.io%2Fbaxter-project&t=Baxter Project" target="_blank"></a></li>
-      <li><a class="shareButton shareButton--pocket" href="https://getpocket.com/save?url=http%3A%2F%2Fpatilnabhi.github.io%2Fbaxter-project&title=Baxter Project" target="_blank"></a></li>
+?mini=true&url=http%3A%2F%2Fpatilnabhi.github.io%2Fbaxter-project&title=Baxter Pick 'n' Place"  target="_blank"></a></li>
+      <li><a class="shareButton shareButton--buffer" href="https://buffer.com/add?text=Baxter Pick 'n' Place by @VincentChan&url=http%3A%2F%2Fpatilnabhi.github.io%2Fbaxter-project" target="_blank"></a></li>
+      <li><a class="shareButton shareButton--hackernews" href="http://news.ycombinator.com/submitlink?u=http%3A%2F%2Fpatilnabhi.github.io%2Fbaxter-project&t=Baxter Pick 'n' Place" target="_blank"></a></li>
+      <li><a class="shareButton shareButton--pocket" href="https://getpocket.com/save?url=http%3A%2F%2Fpatilnabhi.github.io%2Fbaxter-project&title=Baxter Pick 'n' Place" target="_blank"></a></li>
     </ul>
   </div>
 </div>
+
+<footer class="section--footer">
+  <div class="container container--content">
+    <div>
+      <p>Hand-crafted by <a href="/portfolio/about/">Abhishek Patil</a></p>
+    </div>
+    <ul class="socialAccountList">
+      <li><a href="" class="socialAccount socialAccount--linkedin" target="_blank"></a></li>
+      <li><a href="http://github.com/patilnabhi" class="socialAccount socialAccount--github" target="_blank"></a></li>
+      <li><a href="mailto:patilnabhi@gmail.com" class="socialAccount socialAccount--resume" target="_blank"></a></li>
+    </ul>
+    <div>
+      © 2015 All Rights Reserved. Powered by the Mickey theme
+    </div>
+  </div>
+</footer>
 
 
 

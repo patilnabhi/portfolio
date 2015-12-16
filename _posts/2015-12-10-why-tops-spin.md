@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why Tops Spin?"
+title:  "What Keeps Spinning Tops Upright?"
 date:   2015-12-10 01:00:00
 last_modified_at:  2015-12-16 13:00:00
 excerpt: ""
