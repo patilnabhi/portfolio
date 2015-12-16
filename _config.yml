@@ -10,8 +10,8 @@ relative_permalinks: true
 # Setup
 timezone:            America/Illinois # eg. Asia/Kathmandu
 locale:              en_us # eg. en_us
-name:				 Abhishek Portfolio
-title:               Abhishek Patil
+name:				 Abhishek Patil
+title:               Portfolio
 tagline:             'tagline'
 description:         'description'
 url:                 http://patilnabhi.github.io

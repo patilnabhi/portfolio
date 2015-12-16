@@ -121,7 +121,7 @@ kbd,
 pre,
 samp {
   font-family: monospace, monospace;
-  font-size: 1em;
+  font-size: 1em;  
 }
 
 button,
@@ -529,7 +529,7 @@ body {
 }
 
 .textLogo--white {
-  background-image: url(../images/logo-text-white.svg);
+  background-image: url(../images/logo-text-white.png);
 }
 
 .textLogo--sidebar {
@@ -1638,7 +1638,7 @@ body {
 
 .section--first,
 .section-backgroundImage {
-  height: 20.5rem;
+  height: 28rem;
 }
 
 @media (max-width: 767px) {
@@ -1663,7 +1663,7 @@ body {
 .section--about,
 .section-backgroundImage,
 .section--about ~ .post-featuredImage {
-  height: 36rem;
+  height: 28rem;
 }
 
 @media (max-width: 767px) {
@@ -2105,7 +2105,7 @@ body {
   list-style: none;
   margin: 1.5rem auto;
   padding-left: 0;
-  width: 60%;
+  width: 80%;
 }
 
 .socialAccountList:before,
@@ -2149,7 +2149,7 @@ body {
 }
 
 .socialAccount--resume {
-  background-image: url(../images/linkedinf--black.svg);
+  background-image: url(../images/resumef--black.png);
   height: 23px;
 }
 
@@ -2879,4 +2879,11 @@ body {
   .hidden-print {
     display: none !important;
   }
+}
+
+.highlight {
+    background-color: rgba(222, 221, 226, 0.85);
+    border-radius: 10px;
+    padding: 0.2px;
+    padding-left: 20px;
 }
