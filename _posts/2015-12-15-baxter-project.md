@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Baxter Project"
-date:   2015-12-11
-last_modified_at:  2015-12-15
+date:   2015-12-11 01:00:00
+last_modified_at:  2015-12-15 01:00:00
 excerpt: "Walter Elias Disney was an American entrepreneur, cartoonist, animator, voice actor, and film producer. As a prominent..."
 categories: project
 tags:  disney
