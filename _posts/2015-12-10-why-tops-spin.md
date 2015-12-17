@@ -7,7 +7,7 @@ excerpt: ""
 categories: project
 tags:  machine dynamics, ME314, tops, spin, spinning tops
 image:
-  feature: spinning-top.gif
+  feature: top.jpg
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: darker
