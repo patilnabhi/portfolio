@@ -7,7 +7,7 @@ excerpt: ""
 categories: project
 tags:  robotics
 image:
-  feature: ball-tracking.jpg
+  feature: ball-tracking.gif
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: darker

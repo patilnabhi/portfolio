@@ -7,7 +7,7 @@ excerpt: ""
 categories: project
 tags:  machine dynamics, ME314, tops, spin, spinning tops
 image:
-  feature: top.jpg
+  feature: spinning-top.gif
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: darker
@@ -22,6 +22,10 @@ This was a final project for Theory of Machine Dynamics course at Northwestern U
 * Generate a 3D graphics model in Mathematica
 * Use Mathematica to animate the 3D model to illustrate various behaviors of spinning top
 
+*Precession* refers to revolution of top about vertical axis.
+*Nutation* refers to changes in lean angle of top (bobbing up and down)
+
+
 **Drawing of system**:
 
 <center><img src="{{ site.baseurl }}/assets/images/top-system.png" width="80%"/></center>
@@ -33,7 +37,7 @@ To keep the project feasible, following **assumptions** were made:
 
 **Results Summary**:
 
-Full report available here: **[Project Report]**
+<!-- Full report available here: **[Project Report]** -->
 
 Here I present animation of top and the resulting trajectory for 3 different cases:
 
@@ -72,4 +76,4 @@ C. Initial precession rate is **less** than zero
 
 [Mathematica]: https://www.wolfram.com/mathematica/
 [lagrangian mechanics]: https://en.wikipedia.org/wiki/Lagrangian_mechanics
-[Project Report]: {{ site.baseurl }}/assets/me314_report.pdf
+<!-- [Project Report]: {{ site.baseurl }}/assets/me314_report.pdf -->
