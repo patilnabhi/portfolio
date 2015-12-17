@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What Keeps Spinning Tops Upright? (Update in progress)"
+title:  "What Keeps Spinning Tops Upright?"
 date:   2015-12-10 01:00:00
 last_modified_at:  2015-12-16 13:00:00
 excerpt: ""
@@ -24,26 +24,52 @@ This was a final project for Theory of Machine Dynamics course at Northwestern U
 
 **Drawing of system**:
 
+<center><img src="{{ site.baseurl }}/assets/images/top-system.png" width="80%"/></center>
+
 To keep the project feasible, following **assumptions** were made:
 
 * Top modelled as a 'heavy' top that remains fixed to hte round
 * Geometry of top simplified; it is modelled as a wheel on a thin stem as shown in above figure
 
-**Results**:
+**Results Summary**:
 
-3 types of simulations are produced to study top's precession & nutation behavior:
+Full report available here: **[Project Report]**
 
-1. Initial recession rate is **equal** to zero:
+Here I present animation of top and the resulting trajectory for 3 different cases:
 
-	Video coming soon!
+A. Initial precession rate is **equal** to zero:
 
-2. Initial precession rate is **greater** than zero
+*Animation:*
 
-	Video coming soon!
+<center><img src="{{ site.baseurl }}/assets/images/top001.gif" width="70%"/></center>
 
-3. Initial precession rate is **less** than zero
 
-	Video coming soon!
+*Trajectory:*
+
+<center><img src="{{ site.baseurl }}/assets/images/top0001.png" width="70%"/></center>
+
+B. Initial precession rate is **greater** than zero
+
+*Animation:*
+
+<center><img src="{{ site.baseurl }}/assets/images/top002.gif" width="70%"/></center>
+
+
+*Trajectory:*
+
+<center><img src="{{ site.baseurl }}/assets/images/top0002.png" width="70%"/></center>
+
+C. Initial precession rate is **less** than zero
+
+*Animation:*
+
+<center><img src="{{ site.baseurl }}/assets/images/top003.gif" width="70%"/></center>
+
+
+*Trajectory:*
+
+<center><img src="{{ site.baseurl }}/assets/images/top0003.png" width="70%"/></center>
 
 [Mathematica]: https://www.wolfram.com/mathematica/
 [lagrangian mechanics]: https://en.wikipedia.org/wiki/Lagrangian_mechanics
+[Project Report]: {{ site.baseurl }}/assets/me314_report.pdf
