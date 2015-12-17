@@ -1638,7 +1638,7 @@ body {
 
 .section--first,
 .section-backgroundImage {
-  height: 28rem;
+  height: 28.5rem;
 }
 
 @media (max-width: 767px) {
@@ -1663,7 +1663,7 @@ body {
 .section--about,
 .section-backgroundImage,
 .section--about ~ .post-featuredImage {
-  height: 28rem;
+  height: 28.5rem;
 }
 
 @media (max-width: 767px) {

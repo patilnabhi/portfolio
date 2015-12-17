@@ -7,7 +7,7 @@ excerpt: ""
 categories: project
 tags:  baxter, robotics
 image:
-  feature: baxter01.jpg
+  feature: baxter02.gif
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: darker
