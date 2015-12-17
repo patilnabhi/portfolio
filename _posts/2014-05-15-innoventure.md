@@ -7,7 +7,7 @@ excerpt: ""
 categories: project
 tags:  innoventure, entrepreneurship, technopreneurship
 image:
-  feature: innoventure.gif
+  feature: inno01.jpg
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: darker
