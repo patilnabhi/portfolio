@@ -5,7 +5,7 @@ date:   2015-12-10 01:00:00
 last_modified_at:  2015-12-16 13:00:00
 excerpt: ""
 categories: project
-tags:  machine dynamics, ME314, tops, spin, spinning tops
+tags: machine dynamics, ME314, tops, spin, spinning tops
 image:
   feature: spinning-top.gif
   topPosition: 0px
@@ -25,14 +25,13 @@ This was a final project for Theory of Machine Dynamics course at Northwestern U
 *Precession* refers to revolution of top about vertical axis.
 *Nutation* refers to changes in lean angle of top (bobbing up and down)
 
-
 **Drawing of system**:
 
 <center><img src="{{ site.baseurl }}/assets/images/top-system.png" width="80%"/></center>
 
 To keep the project feasible, following **assumptions** were made:
 
-* Top modelled as a 'heavy' top that remains fixed to hte round
+* Top modelled as a 'heavy' top that remains fixed to the ground
 * Geometry of top simplified; it is modelled as a wheel on a thin stem as shown in above figure
 
 **Results Summary**:
@@ -47,7 +46,6 @@ A. Initial precession rate is **equal** to zero:
 
 <center><img src="{{ site.baseurl }}/assets/images/top001.gif" width="70%"/></center>
 
-
 *Trajectory:*
 
 <center><img src="{{ site.baseurl }}/assets/images/top0001.png" width="70%"/></center>
@@ -58,7 +56,6 @@ B. Initial precession rate is **greater** than zero
 
 <center><img src="{{ site.baseurl }}/assets/images/top002.gif" width="70%"/></center>
 
-
 *Trajectory:*
 
 <center><img src="{{ site.baseurl }}/assets/images/top0002.png" width="70%"/></center>
@@ -68,7 +65,6 @@ C. Initial precession rate is **less** than zero
 *Animation:*
 
 <center><img src="{{ site.baseurl }}/assets/images/top003.gif" width="70%"/></center>
-
 
 *Trajectory:*
 
