@@ -16,12 +16,15 @@ syntaxHighlighter: no
 **Project Details:**
 
 * [Innoventure] was a technopreneurship competition at National University of Singapore (NUS)
-* Our group (consisting of 3 members) secured top position out of 6 participating teams
+* Our group (consisting of 3 members) secured [top position] out of 6 participating teams
 * Keen interest was shown by a few companies to take this project to commercialisation stage
 <br></br>
 * The challenge was to understand the actual problems faced, propose a solution and a business plan, and develop a prototype for a real-life problem by Jurong Town Corporation (JTC)
-* **Problem Statement**: Increase the efficiency of sand discharge from Bulk Carriers *(Given to us by JTC)*
-* **[Our Solution]**: Unique mobile Hopper-Conveyor system that reduces the total time of discharge by half *(Note: On the innoventure website, the name of our solution is given as 'MaxMobile')*
+
+**Problem Statement**: Increase the efficiency of sand discharge from Bulk Carriers *(Given to us by JTC)*
+
+**Our Solution**: Unique mobile Hopper-Conveyor system that reduces the total time of discharge by half *(Note: On the innoventure website, the name of our solution is given as 'MaxMobile')*
+
 * We developed a *working* prototype to validate our proposed solution; a video of our prototype (hopper-conveyor system) in action is reproduced below
 * The following poster summarises our view of the problem, our proposed solution and the business plan we put forth
 
@@ -33,4 +36,4 @@ syntaxHighlighter: no
 
 
 [Innoventure]: http://innoventure.com.sg/about/
-[Our Solution]: http://innoventure.com.sg/innoventure-2013/
+[top position]: http://innoventure.com.sg/innoventure-2013/
