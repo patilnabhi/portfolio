@@ -13,5 +13,29 @@ bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
-## Update in progress.. ##
+**Project Details:**
 
+* An industry-sponsored design project as part of requirements at National University of Singapore (NUS)
+* Joint collaboration between Bombardier (Canada), NUS, Peking University (Beijing) and University of Toronto (UoT)
+
+**Goal**: To design a repair process in order to repair an aircraft interior composite component such as door, cabin head and wall lining, while ensuring that the repair process meets the requirements set forth by Bombardier
+
+**Problem Statement:**
+
+* Bombardier’s In-Service aircraft experience minor damage to the composite interiors during operation, and replacement of these interior components (such as door liners, overhead bins, side wall and ceiling panels) is not economical as a permanent solution
+* Bombardier requires development of new repair processes that are feasible with the objectives of low cost and safety - 
+	* Firstly, the repairs must require lower cost to implement when compared to replacement of interior components
+	* Secondly, the repairs must abide by the Federal Aviation Administration’s flammability regulations (FAR25.853)
+
+**Our Approach:**
+
+* As a group, we researched on 3 different repair processes
+* Finite Element Analysis (FEA) on an aircraft interior composite structure was conducted by our team (NUS) using [Abaqus] software 
+* The results from FEA were used to determine the optimal repair process
+* A practical structural test was then conducted by UoT to verify the simulation results
+
+
+
+
+
+[Abaqus]: http://www.3ds.com/products-services/simulia/products/abaqus/latest-release/
