@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Digital Design & Fabrication"
+title:  "Digital Design & Fabrication (Update in Progress)"
 date:   2014-03-30 01:00:00
 last_modified_at:  2015-12-16 13:00:00
 excerpt: ""
