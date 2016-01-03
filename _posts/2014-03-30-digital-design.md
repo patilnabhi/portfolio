@@ -22,7 +22,7 @@ syntaxHighlighter: no
 * In this module, following digital tools and equipment were used to create and fabricate 3D products digitally:
 	* [Rhinocerous 3D] software
 	* [Grasshopper] software
-	* [EOS 3D printer]
+	* [EOS 3D printer] - Selective Laser Sintering (SLS) machine
 
 #####A portfolio of my work is reproduced below:#####
 
@@ -42,7 +42,7 @@ syntaxHighlighter: no
 
 	<center><img src="{{ site.baseurl }}/assets/images/posts/id2112/work04.png" width="120%" style="border: solid" /></center>
 
-5. Turn-A-Pot: Parametric Design of a Pot
+5. Turn-A-Pot: Parametric Design of a Pot (The pot was fabricated using the EOS SLS 3D printer)
 
 	<center><img src="{{ site.baseurl }}/assets/images/posts/id2112/work05.png" width="120%" style="border: solid" /></center>
 
