@@ -28,23 +28,23 @@ syntaxHighlighter: no
 
 1. An 'extruded-3D' image
 	
-	<center><img src="{{ site.baseurl }}/assets/images/posts/id2112/work01.png" width="120%" style="border: solid" /></center>
+	<center><img src="{{ site.baseurl }}/assets/images/posts/id2112/work01.png" width="100%" style="border: solid" /></center>
 
 2. A simple box designed parametrically using Grasshopper software and fabricated using a digital cutter
 	
-	<center><img src="{{ site.baseurl }}/assets/images/posts/id2112/work02.png" width="120%" style="border: solid" /></center>
+	<center><img src="{{ site.baseurl }}/assets/images/posts/id2112/work02.png" width="100%" style="border: solid" /></center>
 
 3. A surface panelling using 'Box Morph' technique in Grasshopper
 
-	<center><img src="{{ site.baseurl }}/assets/images/posts/id2112/work03.png" width="120%" style="border: solid" /></center>
+	<center><img src="{{ site.baseurl }}/assets/images/posts/id2112/work03.png" width="100%" style="border: solid" /></center>
 
 4. A surface panelling using 'Curve Attractors' technique in Grasshopper
 
-	<center><img src="{{ site.baseurl }}/assets/images/posts/id2112/work04.png" width="120%" style="border: solid" /></center>
+	<center><img src="{{ site.baseurl }}/assets/images/posts/id2112/work04.png" width="100%" style="border: solid" /></center>
 
 5. Turn-A-Pot: Parametric Design of a Pot *(The pot was fabricated using the EOS SLS 3D printer)*
 
-	<center><img src="{{ site.baseurl }}/assets/images/posts/id2112/work05.png" width="120%" style="border: solid" /></center>
+	<center><img src="{{ site.baseurl }}/assets/images/posts/id2112/work05.png" width="100%" style="border: solid" /></center>
 
 [ID2112]: https://ivle.nus.edu.sg/lms/public/view_moduleoutline.aspx?CourseID=924A323C-0F89-454E-9571-0C4E84143B35&ClickFrom=StuViewBtn
 [Rhinocerous 3D]: https://www.rhino3d.com/
