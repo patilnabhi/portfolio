@@ -13,7 +13,7 @@ bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
-Project Website: [http://patilnabhi.github.io/baxter_two]
+**Project Website:** [http://patilnabhi.github.io/baxter_two]
 
 This is a [ROS] project developed as part of ME495 - Embedded Systems in Robotics course at Northwestern University ([NU]).
 (ROS stands for Robot Operating System).
@@ -31,10 +31,12 @@ The following video shows our project in action:
 * The project consists of 3 major elements:
     * **Image processing**: [OpenCv] is used as a tool to detect objects & process images from baxter's camera. A transformation of the objects in the image frame is obtained.
     * **Moving baxter's arms**: [MoveIt!] is used as a tool to move baxter's arms to pick and place objects. 
-    * **Planning scene**: MoveIt! is also used to visualize the planning scene in [Rviz] - a 3D visualization tool for ROS. Planning scene consisted of objects present around baxter. The main purpose was not only to visualize the scene, but also to prevent baxter from colliding with these objects.  
-* **Future work**:
-    * Improved camera calibration
-    * GUI development: A Graphical User Interface (GUI) that allows user to click an object in the virtual world (e.g in [Gazebo]), and pick and place that particular object.
+    * **Planning scene**: MoveIt! is also used to visualize the planning scene in [Rviz] - a 3D visualization tool for ROS. Planning scene consisted of objects present around baxter. The main purpose was not only to visualize the scene, but also to prevent baxter from colliding with these objects
+
+**Future work**:
+    
+* Improved camera calibration
+* GUI development: A Graphical User Interface (GUI) that allows user to click an object in the virtual world (e.g in [Gazebo]), and pick and place that particular object.
 
 [http://patilnabhi.github.io/baxter_two]: http://patilnabhi.github.io/baxter_two
 [ROS]: http://www.ros.org/
