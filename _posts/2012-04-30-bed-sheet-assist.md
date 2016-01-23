@@ -18,7 +18,7 @@ syntaxHighlighter: no
 * A Mechanical Design project as part of Mechanical Systems Design module at National University of Singapore (NUS)
 * The main aim of this project was to come up with a 3D design of a product that would enhance the life of the aged
 
-**Our Design - Bed Sheet Assistant**:
+**Design of Bed Sheet Assistant**:
 
 * A mechanical system to assist the elderly in changing their bed sheets on their own to help them lead a better healthier life.
 * The design was done using Solidworks as shown below:
