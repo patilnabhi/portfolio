@@ -7,7 +7,7 @@ excerpt: ""
 categories: project
 tags: machine dynamics, ME314, tops, spin, spinning tops
 image:
-  feature: spinning-top.gif
+  feature: top.jpg
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: darker
@@ -70,6 +70,11 @@ C. Initial precession rate is **less** than zero
 
 <center><img src="{{ site.baseurl }}/assets/images/top0003.png" width="70%"/></center>
 
+**References:**
+
+* Thumbnail image of tops: Adapted from [http://linoit.com/users/jarjon/canvases/Spinning%20Top%20Activity%20Research]
+
 [Mathematica]: https://www.wolfram.com/mathematica/
 [lagrangian mechanics]: https://en.wikipedia.org/wiki/Lagrangian_mechanics
+[http://linoit.com/users/jarjon/canvases/Spinning%20Top%20Activity%20Research]: http://linoit.com/users/jarjon/canvases/Spinning%20Top%20Activity%20Research
 <!-- [Project Report]: {{ site.baseurl }}/assets/me314_report.pdf -->

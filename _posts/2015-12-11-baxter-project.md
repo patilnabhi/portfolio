@@ -7,7 +7,7 @@ excerpt: ""
 categories: project
 tags:  baxter, robotics
 image:
-  feature: baxter01.jpg
+  feature: Baxter.jpg
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: darker
@@ -38,6 +38,10 @@ The following video shows our project in action:
 * Improved camera calibration
 * GUI development: A Graphical User Interface (GUI) that allows user to click an object in the virtual world (e.g in [Gazebo]), and pick and place that particular object.
 
+**References:**
+
+* Thumbnail image of baxter: Adapted from [http://www.4erevolution.com/en/robots-youtube/] 
+
 [http://patilnabhi.github.io/baxter_two]: http://patilnabhi.github.io/baxter_two
 [ROS]: http://www.ros.org/
 [NU]: http://www.mccormick.northwestern.edu/robotics/
@@ -46,3 +50,4 @@ The following video shows our project in action:
 [MoveIt!]: http://moveit.ros.org/
 [Rviz]: http://wiki.ros.org/rviz
 [Gazebo]: http://www.gazebosim.org/tutorials?tut=ros_installing&cat=connect_ros
+[http://www.4erevolution.com/en/robots-youtube/]: http://www.4erevolution.com/en/robots-youtube/
