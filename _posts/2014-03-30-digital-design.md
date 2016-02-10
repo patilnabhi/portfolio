@@ -24,7 +24,7 @@ syntaxHighlighter: no
 	* [Grasshopper] software
 	* [EOS 3D printer] - Selective Laser Sintering (SLS) machine
 
-#####A portfolio of my work is reproduced below *(Best viewed on a bigger screen)*:#####
+**A portfolio of my work is reproduced below *(Best viewed on a bigger screen)*:**
 
 1. An 'extruded-3D' image
 	

@@ -25,7 +25,6 @@ syntaxHighlighter: no
 * Image processing using `OpenCV` script was written to filter out the target object (a red ball was chosen)
 * Using data from above processing, a `ROS` node was developed to get the location of the red ball
 
-**Project Demo**:
-<br>
+**Project Demo**:  
 <iframe width="1920" height="1080" src="https://www.youtube.com/embed/63XBbETPu70" frameborder="0" allowfullscreen></iframe>
 
