@@ -10,7 +10,7 @@ permalink:           /:title
 # Setup
 timezone:            America/Illinois # eg. Asia/Kathmandu
 locale:              en_us # eg. en_us
-name:				 Abhishek Patil
+name:                Abhishek Patil
 title:               Portfolio
 tagline:             'tagline'
 description:         'description'
@@ -25,16 +25,16 @@ icon:                your site icon path # /assets/img/icon.png [best 300px X 30
 disqus:              disqus_shortname # get it on https://disqus.com/admin/
 
 author:
-  name:           	 Abhishek Patil
-  url:            	 your site url
+  name:              Abhishek Patil
+  url:               your site url
   linkedin:          patilnabhi
   github:            patilnabhi
-  mail:				 email
+  mail:              email
 
 # Server
-destination:      	 ./_site
-exclude:          	 [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "sass", "haml"]
-port:             	 9001
+destination:         ./_site
+exclude:             [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "sass", "haml"]
+port:                9001
 
 defaults:
   -
