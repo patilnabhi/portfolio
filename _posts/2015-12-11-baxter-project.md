@@ -13,7 +13,7 @@ bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
-**Project Website:** [http://patilnabhi.github.io/baxter_two]
+**Project Website:** [https://github.com/patilnabhi/baxter_two]
 
 This is a [ROS] project developed as part of ME495 - Embedded Systems in Robotics course at Northwestern University ([NU]).
 (ROS stands for Robot Operating System).
@@ -42,7 +42,7 @@ The following video shows our project in action:
 
 * Thumbnail image of baxter: Adapted from [http://www.4erevolution.com/en/robots-youtube/] 
 
-[http://patilnabhi.github.io/baxter_two]: http://patilnabhi.github.io/baxter_two
+[https://github.com/patilnabhi/baxter_two]: https://github.com/patilnabhi/baxter_two
 [ROS]: http://www.ros.org/
 [NU]: http://www.mccormick.northwestern.edu/robotics/
 [baxter]: http://www.rethinkrobotics.com/baxter/

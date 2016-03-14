@@ -300,16 +300,19 @@
 <h4 id="goal">Goal:</h4>
 
 <ul>
-  <li>To navigate turtlebot using hand-gestures to find target locations marked with AR codes and/or to find a specific person using face-recognition</li>
+  <li>Navigation of turtlebot using hand-gestures to find target locations marked with AR codes and/or to find a specific person using face-recognition</li>
 </ul>
 
 <h4 id="objectives">Objectives:</h4>
 
 <ol>
-  <li>One</li>
-  <li>Two</li>
-  <li>Three</li>
-  <li>Four</li>
+  <li><strong>Hand-gesture recognition:</strong> Using a kinect, OpenCV and ROS, develop an API to recognize number of fingers from 0 to 5<br />
+<br /></li>
+  <li><strong>Face recognition:</strong> Using a webcam, OpenCV and ROS, develop an API to create a database of people’s faces and recognize faces in real-time<br />
+<br /></li>
+  <li><strong>Turtlebot SLAM:</strong> Using turtlebot, kinect and ROS, implement RTAB-Map (a RGB-D SLAM approach) to navigate turtlebot in an unknown environment<br />
+<br /></li>
+  <li><strong>AR code tracking:</strong> Using the ar_track_alvar package in ROS and a kinect, track AR codes to determine their ‘ids’ and ‘poses’ relative to a frame</li>
 </ol>
 
 <h4 id="overview">Overview:</h4>
@@ -326,103 +329,19 @@
   </li>
 </ul>
 
-<h4 id="details">Details:</h4>
-
-<ol>
-  <li>
-    <p><strong>Turtlebot SLAM using RTAB-Map</strong>:</p>
-
-    <ul>
-      <li>Start in /odom frame</li>
-      <li>map –&gt; odom transform with PoseScanMatching helps to correct odometry</li>
-      <li><em>(Future Work) Once all the target locations have been explored, switch to /map frame (with localization = true)</em></li>
-      <li>Parameters involved:
-        <ul>
-          <li>One</li>
-          <li>Two<br />
-<br /></li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li><strong>Hand-gesture recognition</strong>:
-    <ul>
-      <li>Start in /odom frame</li>
-      <li>map –&gt; odom transform with PoseScanMatching helps to correct odometry</li>
-      <li><em>(Future Work) Once all the target locations have been explored, switch to /map frame (with localization = true)</em></li>
-      <li>Parameters involved:
-        <ul>
-          <li>One</li>
-          <li>Two<br />
-<br /></li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li><strong>Face recognition</strong>:
-    <ul>
-      <li>Start in /odom frame</li>
-      <li>map –&gt; odom transform with PoseScanMatching helps to correct odometry</li>
-      <li><em>(Future Work) Once all the target locations have been explored, switch to /map frame (with localization = true)</em></li>
-      <li>Parameters involved:
-        <ul>
-          <li>One</li>
-          <li>Two<br />
-<br /></li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li><strong>AR code tracking</strong>:
-    <ul>
-      <li>Start in /odom frame</li>
-      <li>map –&gt; odom transform with PoseScanMatching helps to correct odometry</li>
-      <li><em>(Future Work) Once all the target locations have been explored, switch to /map frame (with localization = true)</em></li>
-      <li>Parameters involved:
-        <ul>
-          <li>One</li>
-          <li>Two<br />
-<br /></li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ol>
-
-<hr />
-
-<p>The <strong>goal</strong> of this project was to use <a href="http://www.rethinkrobotics.com/baxter/">baxter</a> robot to pick and place objects from one location to another.</p>
-
 <p>The following video shows our project in action:</p>
 
 <p><center><iframe width="1920" height="1080" src="https://www.youtube.com/embed/ZZ2A0e9FO-M" frameborder="0" allowfullscreen=""></iframe></center></p>
 
-<p><strong>Summary</strong>:</p>
+<h4 id="future-work">Future work:</h4>
 
 <ul>
-  <li>Baxter robot is used to pick and place different sized square blocks from one location to another</li>
-  <li>Our group not only got baxter to pick &amp; place the square blocks, but also stack larger of the cubes on top of each other</li>
-  <li>The project consists of 3 major elements:
-    <ul>
-      <li><strong>Image processing</strong>: <a href="http://opencv.org/">OpenCv</a> is used as a tool to detect objects &amp; process images from baxter’s camera. A transformation of the objects in the image frame is obtained.</li>
-      <li><strong>Moving baxter’s arms</strong>: <a href="http://moveit.ros.org/">MoveIt!</a> is used as a tool to move baxter’s arms to pick and place objects.</li>
-      <li><strong>Planning scene</strong>: MoveIt! is also used to visualize the planning scene in <a href="http://wiki.ros.org/rviz">Rviz</a> - a 3D visualization tool for ROS. Planning scene consisted of objects present around baxter. The main purpose was not only to visualize the scene, but also to prevent baxter from colliding with these objects</li>
-    </ul>
-  </li>
-</ul>
-
-<p><strong>Future work</strong>:</p>
-
-<ul>
-  <li>Improved camera calibration</li>
-  <li>GUI development: A Graphical User Interface (GUI) that allows user to click an object in the virtual world (e.g in <a href="http://www.gazebosim.org/tutorials?tut=ros_installing&amp;cat=connect_ros">Gazebo</a>), and pick and place that particular object.</li>
+  <li>Object tracking: Replace AR code tracking and get turtlebot to find specific objects in the environment</li>
+  <li>RTAB-Map &amp; beyond: Explore the capabilities of RTAB-Map and RGB-D SLAM to make the navigation more robust</li>
+  <li>Simple is beautiful: Improve the overall execution of the project to make it more user interactive by making it simpler/easier</li>
 </ul>
 
 <p><strong>References:</strong></p>
-
-<ul>
-  <li>Thumbnail image of baxter: Adapted from <a href="http://www.4erevolution.com/en/robots-youtube/">http://www.4erevolution.com/en/robots-youtube/</a></li>
-</ul>
 
 
 
