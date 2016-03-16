@@ -55,7 +55,7 @@ syntaxHighlighter: no
     
 * Improve accuracy of classification by combining various classifiers such as Principal Component Analysis (PCA), Independent Component Analysis (ICA) and LDA; this could be done using a Radial Basis Function (RBF)-based interpolation
 
-**References:**
+<!-- **References:** -->
 
 
 [http://patilnabhi.github.io/portfolio/tbotnav]: http://patilnabhi.github.io/portfolio/tbotnav
