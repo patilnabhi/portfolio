@@ -17,18 +17,18 @@ syntaxHighlighter: no
 ***This is part of a [ROS] project developed during the winter quarter at Northwestern University ([NU]) as part of M.S. in Robotics (MSR) program.
 (ROS stands for Robot Operating System).***
 
-####Project Website:
+**Project Website**
 * [http://patilnabhi.github.io/portfolio/tbotnav] 
 
-####Demo:
+**Demo**
 
 <p><center><iframe width="1920" height="1080" src="https://www.youtube.com/embed/nvPzOo8tyUs" frameborder="0" allowfullscreen></iframe></center></p>
 
-####Goal:
+**Goal**
 
 * Using a webcam, OpenCV and ROS, develop an API to recognize people in real-time
 
-####Overview:
+**Overview**
 
 * The following flow-chart shows how the interface functions:
 
@@ -50,7 +50,7 @@ syntaxHighlighter: no
 
 <center><img style="border: solid" src="{{ site.baseurl }}/assets/images/posts/face-recog/fisher.png" width="100%"/></center>
 
-####Future work:
+**Future work**
     
 * Improve accuracy of classification by combining various classifiers such as Principal Component Analysis (PCA), Independent Component Analysis (ICA) and LDA; this could be done using a Radial Basis Function (RBF)-based interpolation
 

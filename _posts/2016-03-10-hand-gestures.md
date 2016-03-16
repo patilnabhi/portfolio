@@ -17,18 +17,18 @@ syntaxHighlighter: no
 ***This is part of a [ROS] project developed during the winter quarter at Northwestern University ([NU]) as part of M.S. in Robotics (MSR) program.
 (ROS stands for Robot Operating System).***
 
-####Project Website:
+**Project Website**
 * [http://patilnabhi.github.io/portfolio/tbotnav] 
 
-####Demo:
+**Demo**
 
 <p><center><iframe width="1920" height="1080" src="https://www.youtube.com/embed/u7TcyaLekFg" frameborder="0" allowfullscreen></iframe></center></p>
 
-####Goal:
+**Goal**
 
 * Using a kinect, OpenCV and ROS, develop an API to recognize number of fingers from 0 to 5
 
-####Tasks:
+**Tasks**
 
 * The project can be summrized in the 5 following steps:
 
@@ -39,7 +39,7 @@ syntaxHighlighter: no
 5. Integrate with ROS
 
 
-####Future work:
+**Future work**
     
 * Improve the fingers recognition results by combining with skin-color segmentation and machine learning
 
