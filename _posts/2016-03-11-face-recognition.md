@@ -7,7 +7,7 @@ excerpt: ""
 categories: project
 tags:  face recognition, face detection, OpenCv, fisherfaces, eigenfaces, robotics, ROS
 image:
-  feature: update.jpg
+  feature: face_recog.png
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: darker
@@ -18,17 +18,23 @@ syntaxHighlighter: no
 (ROS stands for Robot Operating System).***
 
 ####Project Website:
-* [http://patilnabhi.github.io/tbotnav] 
+* [http://patilnabhi.github.io/portfolio/tbotnav] 
+
+####Demo:
+
+<p><center><iframe width="1920" height="1080" src="https://www.youtube.com/embed/nvPzOo8tyUs" frameborder="0" allowfullscreen></iframe></center></p>
 
 ####Goal:
 
 * Using a webcam, OpenCV and ROS, develop an API to recognize people in real-time
 
-####Tasks:
+####Overview:
 
-* This project can be broken down into 6 main tasks:
+* The following flow-chart shows how the interface functions:
 
-1. **Detect faces:**   
+<center><img style="border: solid" src="{{ site.baseurl }}/assets/images/posts/face-recog/flow_chart.png" width="100%"/></center>
+
+<!-- 1. **Detect faces:**   
 <br>
 2. **Capture faces:**    
 <br>
@@ -38,7 +44,11 @@ syntaxHighlighter: no
 <br>
 5. **Create a simple GUI to capture and recognize faces:**  
 <br>
-6. **Integrate with ROS:** 
+6. **Integrate with ROS:**  -->
+
+* Fisherfaces algorithm is implemented to train and recognize faces. The algorithm can be summarized as follows:
+
+<center><img style="border: solid" src="{{ site.baseurl }}/assets/images/posts/face-recog/fisher.png" width="100%"/></center>
 
 ####Future work:
     
@@ -47,7 +57,7 @@ syntaxHighlighter: no
 **References:**
 
 
-[http://patilnabhi.github.io/tbotnav]: http://patilnabhi.github.io/tbotnav
+[http://patilnabhi.github.io/portfolio/tbotnav]: http://patilnabhi.github.io/portfolio/tbotnav
 [ROS]: http://www.ros.org/
 [NU]: http://www.mccormick.northwestern.edu/robotics/
 [OpenCV]: http://opencv.org/
