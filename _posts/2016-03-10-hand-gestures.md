@@ -17,7 +17,8 @@ syntaxHighlighter: no
 ***This is part of a [ROS] project developed during the winter quarter at Northwestern University ([NU]) as part of M.S. in Robotics (MSR) program.
 (ROS stands for Robot Operating System).***
 
-**Project Website**
+**Project Website**  
+
 * [http://patilnabhi.github.io/portfolio/tbotnav] 
 
 **Demo**
