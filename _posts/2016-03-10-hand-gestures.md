@@ -15,7 +15,7 @@ syntaxHighlighter: no
 ---
 **Goal**
 
-* Using a kinect, OpenCV and ROS, develop an API to recognize number of fingers from 0 to 5
+* Using a Kinect, OpenCV and ROS, develop an API to recognize number of fingers from 0 to 5
 
 **Project Website**  
 
@@ -29,7 +29,7 @@ syntaxHighlighter: no
 
 * The project can be summrized in the 5 following steps:
 
-1. Extract hand region from kinect depth data  
+1. Extract hand region from Kinect depth data  
 2. Determine convex hull and convexity defects of extracted hand region 
 3. Detect no. of fingers using the convexity defects from (2) 
 4. Create a custom image window to show the recognition in real-time  
