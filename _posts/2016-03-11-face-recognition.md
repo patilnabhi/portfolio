@@ -47,7 +47,7 @@ syntaxHighlighter: no
 
 <center><img style="border: solid" src="{{ site.baseurl }}assets/images/posts/face-recog/fisher.png" width="100%"/></center>
 
-<h4>Future work</h4>
+<h4>Future work:</h4>
     
 * Improve accuracy of classification by combining various classifiers such as Principal Component Analysis (PCA), Independent Component Analysis (ICA) and LDA; this could be done using a Radial Basis Function (RBF)-based interpolation
 
