@@ -16,7 +16,7 @@ tagline:             'tagline'
 description:         'description'
 url:                 http://patilnabhi.github.io
 rss:                 rss feed url
-baseurl:             '/portfolio'
+baseurl:             '/portfolio/'
 baseurl_posts_img:   '/portfolio/assets/images/posts/'
 baseurl_featured_img: '/portfolio/assets/images/hero/'
 baseurl_featured_thumbnail: '/portfolio/assets/images/thumbnail/'
@@ -36,10 +36,10 @@ destination:         ./_site
 exclude:             [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "sass", "haml"]
 port:                9001
 
-defaults:
-  -
-    scope:
-      path: "/portfolio/_posts"
-      type: "posts"
-    values:
-      layout: "default"
+# defaults:
+#   -
+#     scope:
+#       path: "/portfolio/_posts"
+#       type: "posts"
+#     values:
+#       layout: "default"
