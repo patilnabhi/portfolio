@@ -13,19 +13,19 @@ bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
-**Goal**
+<h4>Goal:</h4>
 
 * Using a Kinect, OpenCV and ROS, develop an API to recognize number of fingers from 0 to 5
 
-**Project Website**  
+<h4>Project Website:</h4>  
 
 * [http://patilnabhi.github.io/portfolio/tbotnav] 
 
-**Demo**
+<h4>Demo:</h4>
 
 <p><center><iframe width="1920" height="1080" src="https://www.youtube.com/embed/u7TcyaLekFg" frameborder="0" allowfullscreen></iframe></center></p>
 
-**Tasks**
+<h4>Overview:</h4>
 
 * The project can be summrized in the 5 following steps:
 
@@ -35,14 +35,13 @@ syntaxHighlighter: no
 4. Create a custom image window to show the recognition in real-time  
 5. Integrate with ROS
 
-
-**Future work**
+<h4>Future work:</h4>
     
 * Improve the fingers recognition results by combining with skin-color segmentation and machine learning
 
 *This project was completed as part of the MS in Robotics [(MSR)] program at Northwestern University.*
 
-**References:**
+<h4>References:</h4>
 
 * [http://s-ln.in/2013/04/18/hand-tracking-and-gesture-detection-opencv/]
 * [http://simena86.github.io/blog/2013/08/12/hand-tracking-and-recognition-with-opencv/]

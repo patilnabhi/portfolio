@@ -13,20 +13,19 @@ bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
-
-**Goal**
+<h4>Goal:</h4>
 
 * Using a webcam, OpenCV and ROS, develop an API to recognize people in real-time
 
-**Project Website**  
+<h4>Project Website:</h4>  
 
 * [http://patilnabhi.github.io/portfolio/tbotnav] 
 
-**Demo**
+<h4>Demo:</h4>
 
 <p><center><iframe width="1920" height="1080" src="https://www.youtube.com/embed/nvPzOo8tyUs" frameborder="0" allowfullscreen></iframe></center></p>
 
-**Overview**
+<h4>Overview:</h4>
 
 * The following flow-chart shows how the interface functions:
 
@@ -48,7 +47,7 @@ syntaxHighlighter: no
 
 <center><img style="border: solid" src="{{ site.baseurl }}assets/images/posts/face-recog/fisher.png" width="100%"/></center>
 
-**Future work**
+<h4>Future work</h4>
     
 * Improve accuracy of classification by combining various classifiers such as Principal Component Analysis (PCA), Independent Component Analysis (ICA) and LDA; this could be done using a Radial Basis Function (RBF)-based interpolation
 
