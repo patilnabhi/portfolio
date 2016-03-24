@@ -33,7 +33,7 @@ syntaxHighlighter: no
 
 * The following flow-chart shows how the interface functions:
 
-<center><img style="border: solid" src="{{ site.baseurl }}/assets/images/posts/face-recog/flow_chart.png" width="100%"/></center>
+<center><img style="border: solid" src="{{ site.baseurl }}assets/images/posts/face-recog/flow_chart.png" width="100%"/></center>
 
 <!-- 1. **Detect faces:**   
 <br>
@@ -49,7 +49,7 @@ syntaxHighlighter: no
 
 * Fisherfaces algorithm is implemented to train and recognize faces. The algorithm can be summarized as follows:
 
-<center><img style="border: solid" src="{{ site.baseurl }}/assets/images/posts/face-recog/fisher.png" width="100%"/></center>
+<center><img style="border: solid" src="{{ baseurl_posts_img }}/face-recog/fisher.png" width="100%"/></center>
 
 **Future work**
     
@@ -58,7 +58,7 @@ syntaxHighlighter: no
 <!-- **References:** -->
 
 
-[http://patilnabhi.github.io/portfolio/tbotnav]: http://patilnabhi.github.io/portfolio/tbotnav
+[http://patilnabhi.github.io/portfolio/tbotnav]: {{ site.baseurl }}/tbotnav
 [ROS]: http://www.ros.org/
 [NU]: http://www.mccormick.northwestern.edu/robotics/
 [OpenCV]: http://opencv.org/
