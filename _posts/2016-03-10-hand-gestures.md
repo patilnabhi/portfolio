@@ -13,9 +13,9 @@ bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
+**Goal**
 
-***This is part of a [ROS] project developed during the winter quarter at Northwestern University ([NU]) as part of M.S. in Robotics (MSR) program.
-(ROS stands for Robot Operating System).***
+* Using a kinect, OpenCV and ROS, develop an API to recognize number of fingers from 0 to 5
 
 **Project Website**  
 
@@ -24,10 +24,6 @@ syntaxHighlighter: no
 **Demo**
 
 <p><center><iframe width="1920" height="1080" src="https://www.youtube.com/embed/u7TcyaLekFg" frameborder="0" allowfullscreen></iframe></center></p>
-
-**Goal**
-
-* Using a kinect, OpenCV and ROS, develop an API to recognize number of fingers from 0 to 5
 
 **Tasks**
 
@@ -44,6 +40,8 @@ syntaxHighlighter: no
     
 * Improve the fingers recognition results by combining with skin-color segmentation and machine learning
 
+*This project was completed as part of the MS in Robotics [(MSR)] program at Northwestern University.*
+
 **References:**
 
 * [http://s-ln.in/2013/04/18/hand-tracking-and-gesture-detection-opencv/]
@@ -59,3 +57,4 @@ syntaxHighlighter: no
 [http://s-ln.in/2013/04/18/hand-tracking-and-gesture-detection-opencv/]: http://s-ln.in/2013/04/18/hand-tracking-and-gesture-detection-opencv/
 [http://simena86.github.io/blog/2013/08/12/hand-tracking-and-recognition-with-opencv/]: http://simena86.github.io/blog/2013/08/12/hand-tracking-and-recognition-with-opencv/
 [http://euanfreeman.co.uk/openkinect-python-and-opencv/]: http://euanfreeman.co.uk/openkinect-python-and-opencv/
+[(MSR)]: http://www.mccormick.northwestern.edu/robotics/meet-students/profiles-2015-2016/patil-abhishek.html

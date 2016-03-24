@@ -14,8 +14,9 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-***This is part of a [ROS] project developed during the winter quarter at Northwestern University ([NU]) as part of M.S. in Robotics (MSR) program.
-(ROS stands for Robot Operating System).***
+**Goal**
+
+* Using a webcam, OpenCV and ROS, develop an API to recognize people in real-time
 
 **Project Website**  
 
@@ -24,10 +25,6 @@ syntaxHighlighter: no
 **Demo**
 
 <p><center><iframe width="1920" height="1080" src="https://www.youtube.com/embed/nvPzOo8tyUs" frameborder="0" allowfullscreen></iframe></center></p>
-
-**Goal**
-
-* Using a webcam, OpenCV and ROS, develop an API to recognize people in real-time
 
 **Overview**
 
@@ -49,11 +46,13 @@ syntaxHighlighter: no
 
 * Fisherfaces algorithm is implemented to train and recognize faces. The algorithm can be summarized as follows:
 
-<center><img style="border: solid" src="{{ baseurl_posts_img }}/face-recog/fisher.png" width="100%"/></center>
+<center><img style="border: solid" src="{{ site.baseurl }}assets/images/posts/face-recog/fisher.png" width="100%"/></center>
 
 **Future work**
     
 * Improve accuracy of classification by combining various classifiers such as Principal Component Analysis (PCA), Independent Component Analysis (ICA) and LDA; this could be done using a Radial Basis Function (RBF)-based interpolation
+
+*This project was completed as part of the MS in Robotics [(MSR)] program at Northwestern University.*
 
 <!-- **References:** -->
 
@@ -63,3 +62,4 @@ syntaxHighlighter: no
 [NU]: http://www.mccormick.northwestern.edu/robotics/
 [OpenCV]: http://opencv.org/
 [Rviz]: http://wiki.ros.org/rviz
+[(MSR)]: http://www.mccormick.northwestern.edu/robotics/meet-students/profiles-2015-2016/patil-abhishek.html
