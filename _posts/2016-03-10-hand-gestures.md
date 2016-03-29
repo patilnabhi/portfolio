@@ -15,25 +15,26 @@ syntaxHighlighter: no
 ---
 <h4>Goal:</h4>
 
-* Using a Kinect, OpenCV and ROS, develop an API to recognize number of fingers from 0 to 5
-
-<h4>Project Website:</h4>  
-
-* [http://patilnabhi.github.io/portfolio/tbotnav] 
+* Using a depth camera, OpenCV and ROS, develop an API to recognize number of fingers from 0 to 5
 
 <h4>Demo:</h4>
 
 <p><center><iframe width="1920" height="1080" src="https://www.youtube.com/embed/u7TcyaLekFg" frameborder="0" allowfullscreen></iframe></center></p>
 
-<h4>Overview:</h4>
+<h4>Project Website:</h4>  
 
-* The project can be summrized in the 5 following steps:
+* This project was integrated into another bigger project on TurtleBot navigation and can be viewed at - [http://patilnabhi.github.io/portfolio/tbotnav] 
 
-1. Extract hand region from Kinect depth data  
-2. Determine convex hull and convexity defects of extracted hand region 
-3. Detect no. of fingers using the convexity defects from (2) 
-4. Create a custom image window to show the recognition in real-time  
-5. Integrate with ROS
+<h4>Project Details:</h4>
+
+* The project can be summrized in the following **5 steps**:
+
+	1. Extract hand region from *raw* depth data  
+	2. Determine convex hull and convexity defects of extracted hand region 
+	3. Detect no. of fingers using the convexity defects from (2) 
+	4. Create a custom image window to show the recognition in real-time  
+	5. Integrate with ROS  
+* *The code (integrated with ROS & the TurtleBot project) is available on GitHub - [http://github.com/patilnabhi/tbotnav]*
 
 <h4>Future work:</h4>
     
@@ -49,6 +50,7 @@ syntaxHighlighter: no
 
 
 [http://patilnabhi.github.io/portfolio/tbotnav]: http://patilnabhi.github.io/portfolio/tbotnav
+[http://github.com/patilnabhi/tbotnav]: http://github.com/patilnabhi/tbotnav
 [ROS]: http://www.ros.org/
 [NU]: http://www.mccormick.northwestern.edu/robotics/
 [OpenCV]: http://opencv.org/

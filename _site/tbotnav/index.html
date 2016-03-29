@@ -359,35 +359,45 @@
   <li>Navigation of TurtleBot using hand-gestures to find target locations marked with AR codes and/or to find a specific person using face-recognition</li>
 </ul>
 
-<h4>Project Website:</h4>
+<h4>Overview:</h4>
 
 <ul>
-  <li>For a complete tutorial on launching the project with your TurtleBot, please refer to <a href="http://github.com/patilnabhi/tbotnav">http://github.com/patilnabhi/tbotnav</a></li>
+  <li>This project consists of following <strong>4 tasks</strong>:<br />
+<br />
+    <ol>
+      <li>Determine number of fingers (gestured) in front of an ASUS Xtion Pro camera</li>
+      <li>Navigate TurtleBot in an unknown environment using RGB-D SLAM approach, concurrently building a 3D map of the environment; the robot first finds a target station marked with AR code matching the number detected in (1) and then moves towards the target station</li>
+      <li>Capture, train and recognize faces of people in real-time using a simple GUI</li>
+      <li>Move the robot to various stations to find a specific person from the database built in (3)<br />
+<br /></li>
+    </ol>
+  </li>
+  <li>The overall execution of the project is summarised in the flow-chart below:</li>
 </ul>
+
+<center><img style="border: solid" src="/portfolio//assets/images/posts/tbotnav/flow_chart.png" width="100%" /></center>
 
 <h4>Demo:</h4>
 
 <p><center><iframe width="1920" height="1080" src="https://www.youtube.com/embed/u7TcyaLekFg" frameborder="0" allowfullscreen=""></iframe></center></p>
 
-<h4>Objectives:</h4>
+<h4>Project Website:</h4>
+
+<ul>
+  <li>A tutorial on launching the project with your TurtleBot is available on GitHub - <a href="http://github.com/patilnabhi/tbotnav">http://github.com/patilnabhi/tbotnav</a></li>
+</ul>
+
+<h4>Project Details:</h4>
 
 <ol>
-  <li><strong><a href="/portfolio/hand-gestures">Hand-gesture recognition</a>:</strong> Using a Kinect, OpenCV and ROS, develop an API to recognize number of fingers from 0 to 5<br />
+  <li><strong><a href="/portfolio/hand-gestures">Hand-gesture recognition</a>:</strong> Using a Kinect, <a href="http://opencv.org/">OpenCV</a> and <a href="http://www.ros.org/">ROS</a>, develop an API to recognize number of fingers from 0 to 5<br />
 <br /></li>
-  <li><strong><a href="http://patilnabhi.github.io/portfolio/face-recognition">Face recognition</a>:</strong> Using a webcam, OpenCV and ROS, develop an API to create a database of people’s faces and recognize faces in real-time<br />
+  <li><strong><a href="/portfolio/face-recognition">Face recognition</a>:</strong> Using a webcam, OpenCV and ROS, develop an API to create a database of people’s faces and recognize faces in real-time<br />
 <br /></li>
-  <li><strong><a href="http://github.com/patilnabhi/tbotnav">Turtlebot SLAM</a>:</strong> Using TurtleBot, Kinect and ROS, implement RTAB-Map (a RGB-D SLAM approach) to navigate TurtleBot in an unknown environment<br />
+  <li><strong><a href="http://github.com/patilnabhi/tbotnav">TurtleBot SLAM</a>:</strong> Using TurtleBot, Kinect and ROS, implement RTAB-Map (a RGB-D SLAM approach) to navigate TurtleBot in an unknown environment<br />
 <br />
 <!-- 4. **AR code tracking:** Using the ar_track_alvar package in ROS and a Kinect, track AR codes to determine their 'ids' and 'poses' relative to a frame --></li>
 </ol>
-
-<h4>Overview:</h4>
-
-<ul>
-  <li>The overall execution of the project is summarised in the flow-chart below:</li>
-</ul>
-
-<center><img style="border: solid" src="/portfolio//assets/images/posts/tbotnav/flow_chart.png" width="100%" /></center>
 
 <h4>Future work:</h4>
 
@@ -397,7 +407,7 @@
   <li><strong>Simple is beautiful:</strong> Improve the overall execution of the project to make it more user interactive by making it simpler/easier</li>
 </ul>
 
-<p><em>This project was completed as part of the MS in Robotics <a href="http://www.mccormick.northwestern.edu/robotics/meet-students/profiles-2015-2016/patil-abhishek.html">(MSR)</a> program at Northwestern University.</em></p>
+<p><em>This project was completed as part of the MS in Robotics (<a href="http://www.mccormick.northwestern.edu/robotics/meet-students/profiles-2015-2016/patil-abhishek.html">MSR</a>) program at Northwestern University (<a href="http://www.mccormick.northwestern.edu/robotics/">NU</a>).</em></p>
 
 <!-- **References:** -->
 
