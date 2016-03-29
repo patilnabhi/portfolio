@@ -27,7 +27,7 @@ syntaxHighlighter: no
 
 <h4>Project Details:</h4>
 
-* The project can be summrized in the following **5 steps**:
+* The project can be summarized in the following **5 steps**:
 
 	1. Extract hand region from *raw* depth data  
 	2. Determine convex hull and convexity defects of extracted hand region 
