@@ -19,7 +19,7 @@ syntaxHighlighter: no
 
 <h4>Demo:</h4>
 
-<p><center><iframe width="1920" height="1080" src="https://www.youtube.com/embed/u7TcyaLekFg" frameborder="0" allowfullscreen></iframe></center></p>
+<p><center><iframe width="560" height="315" src="https://www.youtube.com/embed/8xGBM5BMlHA" frameborder="0" allowfullscreen></iframe></center></p>
 
 <h4>Project Website:</h4>  
 
