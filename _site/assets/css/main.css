@@ -537,7 +537,7 @@ body {
 
 .textLogo {
   display: block;
-  background-image: url(../images/logo-text-black.svg);
+  background-image: url(../images/logo-text-black.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -1669,6 +1669,7 @@ body {
 .section--frontpage,
 .section--frontpage ~ .post-featuredImage {
   height: 18rem;
+  background: #f2f2f2;
 }
 
 @media (max-width: 767px) {
@@ -1816,9 +1817,9 @@ body {
 }
 
 .postMeta-wrapper--frontpage .postMeta-tagline {
-  font-weight: 300;
+  font-weight: 900;
   letter-spacing: 0.04rem;
-  color: #777777;
+  color: #585858;
   text-transform: none;
 }
 
@@ -1846,8 +1847,8 @@ body {
   margin: 0;
   padding: 0 0 0 10px;
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 0.75rem;
+  font-weight: 900;
+  font-size: 0.85rem;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
