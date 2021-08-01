@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Abhishek Patil</title>
+		<description>description</description>
+		<link>http://localhost:9001</link>
+		<atom:link href="http://localhost:9001/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>TurtleBot SLAM (with RTAB-Map, Hand-Gestures, Face Recognition &amp; AR Code Tracking)</title>
+				
+				
+					<description></description>
+				
+				<pubDate>Mon, 14 Mar 2016 13:00:00 +0000</pubDate>
+				<link>http://localhost:9001/tbotnav</link>
+				<guid isPermaLink="true">http://localhost:9001/tbotnav</guid>
+			</item>
+		
+			<item>
+				<title>Face Recognition</title>
+				
+				
+					<description></description>
+				
+				<pubDate>Fri, 11 Mar 2016 13:00:00 +0000</pubDate>
+				<link>http://localhost:9001/face-recognition</link>
+				<guid isPermaLink="true">http://localhost:9001/face-recognition</guid>
+			</item>
+		
+			<item>
+				<title>Hand Gesture Recognition</title>
+				
+				
+					<description></description>
+				
+				<pubDate>Thu, 10 Mar 2016 13:00:00 +0000</pubDate>
+				<link>http://localhost:9001/hand-gestures</link>
+				<guid isPermaLink="true">http://localhost:9001/hand-gestures</guid>
+			</item>
+		
+			<item>
+				<title>Baxter Pick 'n' Place</title>
+				
+				
+					<description></description>
+				
+				<pubDate>Fri, 11 Dec 2015 01:00:00 +0000</pubDate>
+				<link>http://localhost:9001/baxter-project</link>
+				<guid isPermaLink="true">http://localhost:9001/baxter-project</guid>
+			</item>
+		
+			<item>
+				<title>What Keeps Spinning Tops Upright?</title>
+				
+				
+					<description></description>
+				
+				<pubDate>Thu, 10 Dec 2015 01:00:00 +0000</pubDate>
+				<link>http://localhost:9001/why-tops-spin</link>
+				<guid isPermaLink="true">http://localhost:9001/why-tops-spin</guid>
+			</item>
+		
+			<item>
+				<title>Ball Tracking</title>
+				
+				
+					<description></description>
+				
+				<pubDate>Tue, 29 Sep 2015 01:00:00 +0000</pubDate>
+				<link>http://localhost:9001/ball-tracking</link>
+				<guid isPermaLink="true">http://localhost:9001/ball-tracking</guid>
+			</item>
+		
+			<item>
+				<title>Two Link Planar Robot</title>
+				
+				
+					<description></description>
+				
+				<pubDate>Sat, 26 Sep 2015 01:00:00 +0000</pubDate>
+				<link>http://localhost:9001/tlpr</link>
+				<guid isPermaLink="true">http://localhost:9001/tlpr</guid>
+			</item>
+		
+			<item>
+				<title>Robotic Manipulation</title>
+				
+				
+					<description></description>
+				
+				<pubDate>Fri, 25 Sep 2015 00:00:00 +0000</pubDate>
+				<link>http://localhost:9001/robo_man</link>
+				<guid isPermaLink="true">http://localhost:9001/robo_man</guid>
+			</item>
+		
+			<item>
+				<title>Innoventure</title>
+				
+				
+					<description></description>
+				
+				<pubDate>Thu, 15 May 2014 01:00:00 +0000</pubDate>
+				<link>http://localhost:9001/innoventure</link>
+				<guid isPermaLink="true">http://localhost:9001/innoventure</guid>
+			</item>
+		
+			<item>
+				<title>Continuous Blood Pressure Monitoring using Artificial Neural Network</title>
+				
+				
+					<description></description>
+				
+				<pubDate>Wed, 30 Apr 2014 01:00:00 +0000</pubDate>
+				<link>http://localhost:9001/bp-monitoring-using-ann</link>
+				<guid isPermaLink="true">http://localhost:9001/bp-monitoring-using-ann</guid>
+			</item>
+		
+	</channel>
+</rss>
